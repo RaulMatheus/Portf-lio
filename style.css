@@ -1,0 +1,64 @@
+#logo{
+    border-radius: 50%;
+    margin-top: 1%;
+    width: 8%;
+    height: 8%;
+    z-index: 1;
+    position:relative;
+}
+body{
+    background-color:azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+hr{
+    border: 1px solid;
+    border-color: black;
+    width: 35%;
+}
+img{
+    border-radius: 60%;
+    width: 90%;
+    height: 35%;
+}
+menu{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    position:fixed;
+    z-index:1;
+    padding-left: 200px;
+    gap:1rem;
+}
+.icone{
+    border-radius: 50%;
+    width: 5%;
+    height: 5%;
+}
+section{
+    background-color:rgb(184, 189, 197);
+    border-color:rgb(0, 0, 0) ;
+    margin: 2%;
+    padding: 2%;
+}
+.ladoalado{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.ladoalado2{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.menu-item{
+    text-decoration: none;
+    font-size: 15px;
+    height: 20px;
+    align-items: center;
+    border-radius: 5%;
+}
+.menu-item:hover{
+    font-weight: 100%;
+    color: black; 
+    border-color: rgb(255, 255, 255);
+}
